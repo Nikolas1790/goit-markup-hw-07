@@ -1,17 +1,28 @@
+@media screen and (max-width: 767px) {
+  .header-no-mobile {
+    display: none;
+  }
+  .address-no-mobile {
+    display: none;
+  }
+}
 @media screen and (min-width: 480px) {
   .coteiner {
     width: 426px;
     margin: 0 auto;
   }
+  /* ===header=== */
 }
+/* =================planshet=================== */
 @media screen and (min-width: 768px) {
   .coteiner {
     width: 766px;
   }
-  .properties-list {
+  /* .properties-list {
     width: calc((100%-24px) / 2);
-  }
+  } */
 }
+/* =================desctop=================== */
 @media screen and (min-width: 1200px) {
   .coteiner {
     width: 1158px;
@@ -20,7 +31,7 @@
     padding: 120px 0;
   }
 
-  .properties-list {
+  /* .properties-list {
     width: calc((100%-72px) / 4);
-  }
+  } */
 }
