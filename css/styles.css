@@ -46,10 +46,9 @@ body {
 
 .coteiner {
   width: 100%;
+  padding: 0 15px;
 
   /* width: 1158px; */
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .section {
@@ -96,7 +95,7 @@ body {
 }
 
 /*----------- header------------ */
-.header {
+/* .header {
   border-bottom: 1px solid var(--border-bottom);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -193,7 +192,7 @@ body {
 .contacts-address:hover,
 .contacts-address:focus {
   color: var(--push-btn-portfolio);
-}
+} */
 
 /*---------------- hero ---------------*/
 .hero {
@@ -269,7 +268,7 @@ body {
   /* width: calc((100%-72px) / 4); */
 }
 
-/* .properties-content {
+.properties-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -278,7 +277,9 @@ body {
   background-color: var(--grey-cornflower);
   border-radius: 4px;
   margin-bottom: 8px;
-} */
+
+  display: none;
+}
 
 .properties-title {
   text-align: center;
