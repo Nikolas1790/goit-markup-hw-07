@@ -5,6 +5,35 @@
   .address-no-mobile {
     display: none;
   }
+  /* ========mobile-menu======== */
+  .mobile-menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white-fff);
+
+    /* padding: 80px 35px 40px 40px; */
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity var(--transition-dur-func),
+      visibility var(--transition-dur-func);
+  }
+  .mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .mobile-menu_coteiner {
+    position: relative;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+  }
+  /* ========/mobile-menu======== */
 }
 @media screen and (min-width: 480px) {
   .coteiner {
@@ -18,6 +47,14 @@
   .coteiner {
     width: 766px;
   }
+  .mobile-menu {
+    display: none;
+  }
+  /* ========mobile-menu======== */
+  .mobile-menu-open {
+    display: none;
+  }
+  /* ========/mobile-menu======== */
   /* .properties-list {
     width: calc((100%-24px) / 2);
   } */

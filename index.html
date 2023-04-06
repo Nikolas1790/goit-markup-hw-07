@@ -38,7 +38,11 @@
           </ul>
         </nav>
         <button type="button" class="mobile-menu-open">
-          <svg class="mobile-menu-open-icon" width="32" height="22">
+          <svg
+            class="mobile-menu-open-icon js-open-menu"
+            width="32"
+            height="22"
+          >
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
@@ -61,15 +65,15 @@
           </ul>
         </address>
       </div>
-      <div class="mobile-menu">
-        <div class="coteiner">
+      <div class="mobile-menu js-menu-container">
+        <div class="coteiner mobile-menu_coteiner">
           <button
-            class="mobile-menu-close-btn modal-close-btn"
+            class="mobile-menu_close-btn modal-close-btn js-close-menu"
             type="button"
             data-modal-close
           >
             <svg
-              class="mobile-menu-close-icon modal-close-btn-icon"
+              class="mobile-menu_close-icon modal-close-btn-icon"
               width="8"
               height="8"
             >
@@ -628,5 +632,6 @@
       </div>
     </div> -->
     <script src="./js/modal.js"></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
