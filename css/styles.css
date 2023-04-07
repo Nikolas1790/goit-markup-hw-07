@@ -46,7 +46,6 @@ body {
 
 .coteiner {
   padding: 0 15px;
-  background-color: teal;
 }
 
 .section {
@@ -93,23 +92,6 @@ body {
 }
 
 /*----------- header------------ */
-.header {
-  padding: 24px 0;
-}
-.header-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.mobile-menu-open {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  height: 22px;
-}
-.mobile-menu-open-icon {
-  stroke: var(--secondary-text-color);
-}
 
 /* =======mobile-menu======= */
 
@@ -215,6 +197,32 @@ body {
 
 /*---------------- hero ---------------*/
 .hero {
+  padding: 112px 0;
+  max-width: 428px;
+  margin: 0 auto;
+
+  background-color: var(--color-hero-bckg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/fon/mobile-bg.jpg);
+  background-size: cover;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/fon/mobile-bg@2x.jpg);
+  }
+}
+/* .hero {
   padding: 188px 0;
   max-width: 1440px;
   margin: 0 auto;
@@ -263,7 +271,7 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--push-btn-portfolio);
-}
+} */
 
 /* ----------properties---------- */
 .properties {
