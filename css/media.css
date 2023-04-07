@@ -417,6 +417,16 @@
     margin-right: 24px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-main-block {
+    width: 552px;
+  }
+}
 /* =================desctop=================== */
 @media screen and (min-width: 1200px) {
   .coteiner {

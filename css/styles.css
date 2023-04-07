@@ -309,10 +309,11 @@ body {
 .properties-ul {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 72px; */
+  /* justify-content: center; */
+  gap: 72px;
 }
 .properties-list {
-  width: 100%;
+  width: 356px;
 }
 .properties-title {
   margin-bottom: 8px;
