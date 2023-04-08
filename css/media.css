@@ -95,8 +95,7 @@
     flex-direction: column;
     gap: 40px;
   }
-  .mobile-contacts {
-  }
+
   .mobile-contacts-address_tel {
     font-weight: 700;
     font-size: 36px;
@@ -116,11 +115,8 @@
   /* nvncffgn */
   .social-list {
     display: flex;
-    justify-content: center;
-    gap: 24px;
-  }
-
-  .social-list-item {
+    justify-content: flex-start;
+    gap: 56px;
   }
 
   .social-list-link {
