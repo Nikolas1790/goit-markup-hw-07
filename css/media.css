@@ -1,4 +1,8 @@
 @media screen and (max-width: 767px) {
+  .coteiner {
+    max-width: 426px;
+    margin: 0 auto;
+  }
   .header-no-mobile {
     display: none;
   }
@@ -199,16 +203,10 @@
   }
 }
 
-@media screen and (min-width: 480px) {
-  .coteiner {
-    width: 426px;
-    margin: 0 auto;
-  }
-}
 /* =================planshet=================== */
 @media screen and (min-width: 768px) {
   .coteiner {
-    width: 766px;
+    max-width: 766px;
   }
   .mobile-menu {
     display: none;
@@ -452,7 +450,7 @@
 /* =================desctop=================== */
 @media screen and (min-width: 1200px) {
   .coteiner {
-    width: 1158px;
+    max-width: 1158px;
   }
   .section {
     padding: 120px 0;
