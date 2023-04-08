@@ -113,7 +113,7 @@
   }
 
   /* nvncffgn */
-  .social-list {
+  .social-list.mob-menu {
     display: flex;
     justify-content: flex-start;
     gap: 56px;
