@@ -168,6 +168,10 @@
     width: 398px;
     margin-bottom: 16px;
   }
+
+  .modal {
+    width: 392px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -380,7 +384,7 @@
     flex-wrap: wrap;
 
     justify-content: center;
-    gap: 72px 24px;
+    gap: 64px 24px;
   }
 
   .customers-list {
@@ -456,7 +460,6 @@
     display: flex;
 
     align-items: center;
-    gap: 40px;
   }
 
   .contacts {
@@ -549,6 +552,9 @@
   }
   .content-list {
     width: calc((100%-48px) / 3);
+  }
+  .team-ul {
+    gap: 24px;
   }
 
   .footer {
