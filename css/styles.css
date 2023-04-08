@@ -550,7 +550,7 @@ body {
 .customers-list {
   display: flex;
   flex-wrap: wrap;
-  /* bcvbng */
+
   gap: 72px 16px;
 }
 .customers-item {
