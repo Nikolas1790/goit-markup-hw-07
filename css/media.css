@@ -332,11 +332,11 @@
   }
   .properties-ul {
     /* display: flex; */
-
+    flex-wrap: nowrap;
     /* gap: 72px; */
   }
   .properties-list {
-    /* width: 356px; */
+    width: 356px;
 
     width: calc((100%-24px) / 2);
   }
