@@ -103,6 +103,31 @@
     letter-spacing: 0.02em;
     color: var(--primiory-text-color);
   }
+  .mobile-menu_close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--border-bottom);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    transition: background-color var(--transition-dur-func);
+  }
+  .mobile-menu_close-btn:focus {
+    background-color: var(--push-btn-portfolio);
+    border: 1px solid transparent;
+  }
+  .mobile-menu_close-icon {
+    transition: fill var(--transition-dur-func);
+  }
+  .mobile-menu_close-btn:focus .mobile-menu_close-icon {
+    fill: var(--color-white-fff);
+  }
 
   .social-list.mob-menu {
     display: flex;
