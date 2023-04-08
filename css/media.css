@@ -47,12 +47,16 @@
     pointer-events: auto;
   }
   .mobile-menu_coteiner {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
     position: relative;
 
     padding-top: 80px;
     padding-left: 40px;
     padding-bottom: 40px;
   }
+
   /* .mobile-menu-block {
     display: flex;
     flex-direction: column;
@@ -333,6 +337,8 @@
   .properties-ul {
     /* display: flex; */
     flex-wrap: nowrap;
+    /* justify-content: flex-start; */
+
     /* gap: 72px; */
   }
   .properties-list {
