@@ -313,7 +313,7 @@ body {
   gap: 72px;
 }
 .properties-list {
-  width: 100%;
+  max-width: 396px;
 }
 .properties-title {
   margin-bottom: 8px;
