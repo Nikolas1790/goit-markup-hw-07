@@ -426,6 +426,11 @@ body {
 .team-desc {
   padding: 32px 16px;
 }
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--push-btn-portfolio);
+}
+
 .social-list-svg {
   fill: var(--grey-cornflower);
 }

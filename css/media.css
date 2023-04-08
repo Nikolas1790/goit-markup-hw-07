@@ -323,15 +323,15 @@
   }
   .properties-ul {
     /* display: flex; */
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     /* justify-content: flex-start; */
 
-    /* gap: 72px; */
+    gap: 72px 24px;
   }
   .properties-list {
     /* width: 356px; */
 
-    width: calc((100%-24px) / 2);
+    width: calc((100% - 24px) / 2);
   }
   .properties-title {
     margin-bottom: 8px;
@@ -512,6 +512,7 @@
     margin: 0 auto 48px auto;
   }
   .properties-ul {
+    flex-wrap: nowrap;
     gap: 24px;
   }
   .properties-list {
