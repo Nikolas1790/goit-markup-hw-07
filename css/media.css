@@ -451,6 +451,9 @@
   .footer-subscribe-input {
     margin-right: 24px;
   }
+  .modal {
+    max-width: 408px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer {
