@@ -630,4 +630,12 @@
   .footer-main-block {
     gap: 0 0;
   }
+  .works {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+  }
+  .works-li {
+    max-width: calc((100%-48px) / 3);
+  }
 }
