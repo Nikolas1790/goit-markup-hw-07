@@ -298,18 +298,9 @@ body {
 
 /*----------------- portfolio---------------- */
 
-.portfolio {
-  padding: 96px 0 120px 0;
-}
-
 .filtr {
   display: flex;
   justify-content: center;
-  margin-bottom: 72px;
-}
-
-.filtr {
-  display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }

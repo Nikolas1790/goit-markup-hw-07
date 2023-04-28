@@ -208,6 +208,12 @@
     max-width: 392px;
   }
 
+  .portfolio {
+    padding: 48px 0;
+  }
+  .filtr {
+    margin-bottom: 48px;
+  }
   .works {
     display: flex;
     align-items: center;
@@ -454,6 +460,12 @@
     max-width: 408px;
   }
 
+  .portfolio {
+    padding: 64px 0 96px 0;
+  }
+  .filtr {
+    margin-bottom: 64px;
+  }
   .works {
     display: flex;
     flex-wrap: wrap;
@@ -629,6 +641,13 @@
   }
   .footer-main-block {
     gap: 0 0;
+  }
+
+  .portfolio {
+    padding: 100px 0 120px 0;
+  }
+  .filtr {
+    margin-bottom: 72px;
   }
   .works {
     display: flex;
